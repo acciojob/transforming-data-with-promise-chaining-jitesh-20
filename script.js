@@ -14,7 +14,7 @@ document.getElementById("btn").addEventListener('click',()=>{
 		return new Promise((resolve)=>{
 			setTimeout(()=>{
 				data1*=2;
-				outputDiv.textContent=`Result ${data1}`;
+				outputDiv.textContent=`Result: ${data1}`;
 				resolve(data1);
 			},2000)
 		})
@@ -22,7 +22,7 @@ document.getElementById("btn").addEventListener('click',()=>{
 		return new Promise((resolve)=>{
 			setTimeout(()=>{
 				data2-=3;
-				outputDiv.textContent=`Result ${data2}`;
+				outputDiv.textContent=`Result: ${data2}`;
 				resolve(data2);
 			},1000)
 		})
@@ -30,7 +30,7 @@ document.getElementById("btn").addEventListener('click',()=>{
 		return new Promise((resolve)=>{
 			setTimeout(()=>{
 				data3/=2;
-				outputDiv.textContent=`Result ${data3}`;
+				outputDiv.textContent=`Result: ${data3}`;
 				resolve(data3);
 			},1000)
 		})
@@ -38,7 +38,7 @@ document.getElementById("btn").addEventListener('click',()=>{
 		return new Promise((resolve)=>{
 			setTimeout(()=>{
 				data4+=10;
-				outputDiv.textContent=`Result ${data4}`;
+				outputDiv.textContent=`Result: ${data4}`;
 				resolve(data4);
 			},1000)
 		})
