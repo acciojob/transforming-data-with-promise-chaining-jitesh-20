@@ -38,7 +38,7 @@ document.getElementById("btn").addEventListener('click',()=>{
 		return new Promise((resolve)=>{
 			setTimeout(()=>{
 				data4+=10;
-				outputDiv.textContent=`Result: ${data4}`;
+				outputDiv.textContent=`Final Result: ${data4}`;
 				resolve(data4);
 			},1000)
 		})
